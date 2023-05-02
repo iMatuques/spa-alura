@@ -1,0 +1,31 @@
+@import '../abstract/variables';
+
+.banner {
+    background: url("https://cdn.discordapp.com/attachments/918591215979601921/1101116941319553055/banner.jpeg") 27% center no-repeat;
+    min-height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .9;
+    .inner-banner {
+        padding: 30px;
+        border-radius: 35px;
+        background: $cor-bg-text;
+        opacity: 0.8;
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 52px;
+            font-weight: bold;
+            line-height: 125%;
+            color: $cor-text;
+        }
+        h2 {
+            font-size: 26px;
+            color: $cor-secundaria;
+            font-weight: lighter;
+        }
+    }
+}
